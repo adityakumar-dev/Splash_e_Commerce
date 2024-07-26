@@ -15,6 +15,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   google_fonts: ^6.2.1
   provider: ^6.1.2
+  smooth_page_indicator: ^1.2.0+3
+  flutter_svg: ^2.0.10+1
 
 
 dev_dependencies:
@@ -32,9 +34,14 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/introScreen/sample1.svg
+    - assets/introScreen/sample2.svg
+    - assets/introScreen/sample3.svg
+    - assets/introScreen/sample4.svg
+    - assets/introScreen/sample5.svg
+    
+     #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

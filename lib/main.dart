@@ -3,7 +3,9 @@ import 'package:e_commerce_1/src/ui/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  imageCache.clear();
   runApp(const MyApp());
 }
 
