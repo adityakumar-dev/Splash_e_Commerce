@@ -35,11 +35,10 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/introScreen/sample1.svg
-    - assets/introScreen/sample2.svg
-    - assets/introScreen/sample3.svg
-    - assets/introScreen/sample4.svg
-    - assets/introScreen/sample5.svg
+    - assets/introScreen/
+    - assets/signInScreen/
+    - assets/signupScreen/
+   
     
      #   - images/a_dot_ham.jpeg
 

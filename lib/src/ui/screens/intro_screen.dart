@@ -4,6 +4,7 @@ import 'package:e_commerce_1/src/common/constants/app_colors.dart';
 import 'package:e_commerce_1/src/common/utils/intro_screen/page_slide_data.dart';
 import 'package:e_commerce_1/src/common/widgets/app_button.dart';
 import 'package:e_commerce_1/src/ui/components/intro_screen/page_slider.dart';
+import 'package:e_commerce_1/src/ui/screens/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -59,7 +60,16 @@ class _IntroScreenState extends State<IntroScreen> {
               const SizedBox(
                 height: 20,
               ),
-              appButton(context, "Get Started", () {}, Icons.arrow_forward),
+              appButton(
+                  context,
+                  "Get Started",
+                  () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const SignUpScreen())),
+                  Icons.arrow_forward,
+                  false,
+                  null),
               const SizedBox(
                 height: 10,
               )

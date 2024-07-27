@@ -9,4 +9,5 @@ class AppColors {
   static const Color error = Color(0xFFE53E3E);
   static const Color text = Color(0xFF2D3748);
   static const Color secondaryText = Color(0xFF718096);
+  static const Color black = Colors.black;
 }
